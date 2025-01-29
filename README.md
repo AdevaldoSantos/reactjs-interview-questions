@@ -547,9 +547,9 @@ Hide/Show table of contents
 
     ```javascript
     const Button = ({ handleLogin }) => (
-      <div id={"login-btn"} onClick={handleLogin}>
+      <button id={"login-btn"} onClick={handleLogin}>
         Login
-      </div>
+      </button>
     );
     ```
 
